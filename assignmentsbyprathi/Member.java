@@ -20,7 +20,7 @@ public class Member {
 
 
 
-	public void printSalary(long salary) {
+	public void printSalary() {
 		System.out.println("salary amount:"+salary);
 	}
 }
