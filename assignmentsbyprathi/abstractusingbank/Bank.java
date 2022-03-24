@@ -1,0 +1,5 @@
+package com.tyss.assignmentsbyprathi.abstractusingbank;
+
+public abstract class Bank {
+	public abstract void getBalance(); 
+}
