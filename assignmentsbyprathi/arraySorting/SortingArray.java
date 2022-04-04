@@ -3,6 +3,7 @@ package com.tyss.assignmentsbyprathi.arraySorting;
 import java.util.Scanner;
 
 public class SortingArray {
+	
 	static int a[];
 	public void printArray(String msg) {
 		System.out.println(msg);
@@ -24,16 +25,23 @@ public class SortingArray {
 		printArray("\narray elements after sorting");
 	}
 	public static void main(String[] args) {
+		try {
 		SortingArray array = new SortingArray();
 		Scanner scanner = new Scanner(System.in);
 		System.out.println("enter the size of array");
-		int size=scanner.nextInt();
+		int size=scanner.nextInt();		
 		a=new int[size];
 		for(int i=0;i<size;i++) {
 			System.out.println("enter the "+(i+1)+" value");
 			a[i]=scanner.nextInt();
 		}
+		scanner.close();
 		array.printArray("array elements before sorting");
 		array.sorting();		
+	}catch(Exception e) {
+		e.printStackTrace();
 	}
+	}
+	
 }
+	
