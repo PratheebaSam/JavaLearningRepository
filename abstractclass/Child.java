@@ -1,8 +1,8 @@
 package com.tyss.abstractclass;
 
 public class Child extends TestingAbstract{
-	public Child(int x) {
-		super(x);		
+	public Child(int x,int y) {
+		super(x,y);		
 	}
 	
 	@Override

@@ -11,6 +11,13 @@ public class Employee {
 	public void setName(String name) {
 		this.name = name;
 	}
+//	public Employee(String name, int age, double salary, String designation) {
+//		super();
+//		this.name = name;
+//		this.age = age;
+//		this.salary = salary;
+//		this.designation = designation;
+//	}
 	public int getAge() {
 		return age;
 	}
